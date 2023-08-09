@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { ImCopy } from "react-icons/im";
 import logo from "../assets/logo.svg";
+import x from "../assets/x.svg";
+import baby from "../assets/baby.svg";
 
 const About = () => {
   const copy = useRef(null);
@@ -8,15 +10,16 @@ const About = () => {
     <section className="w-full pt-16 bgw" id="about">
       <div className="container grid gap-16 grid-cols-1 lg:grid-cols-2 justify-between items-center">
         <article className="flex flex-col gap-5">
-          <h1 className="text-white text-5xl font-normal">MEET BABYX</h1>
-          <h1 className="max-w-[575px] text-white text-5xl font-normal">
-            Comic with the CommunityAs The Core
+          <h1 className="text-white flex items-center gap-6 text-5xl font-normal">
+            MEET <img src={baby} alt="" className="w-[12rem]" />
           </h1>
+
           <p className=" text-white text-2xl font-normal leading-10">
-            We will make a 5 story part for this comic book with the help of the
-            community in the form of Story Plot competition ! The detail will be
-            shared on the telegram group.And please read #Issue 1 : Prologue -
-            The Awakening
+            BABYX token was developed with the aim of enhancing the overall
+            enjoyment of the community. BABYX is dedicated to fostering
+            connections and creating a vibrant social environment where people
+            can come together, have a great time, and engage in entertaining
+            activities and social events.
           </p>
           <div
             onClick={async () => {
@@ -37,7 +40,7 @@ const About = () => {
             </div>
           </div>
         </article>
-        <img src={logo} alt="" className="mx-auto" />
+        <img src={x} alt="" className="mx-auto animate-spin" />
       </div>
       <div className="w-full pt-8 mt-10 pb-[30px] bg-rose-500 justify-center items-center grid grid-cols-2 lg:grid-cols-6 px-3 md:grid-cols-4 grid-rows-1 overflow-hidden">
         <div className="flex items-center gap-4">

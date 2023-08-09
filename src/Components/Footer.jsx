@@ -11,7 +11,7 @@ const Footer = () => {
           </h1>
           <h2 className="flex-col justify-start items-center gap-[9px] flex">
             <div className="text-center text-white md:text-2xl font-normal">
-              CA :0X8207443D734EF86ECC2635DB73F1578F5012ABE4
+              CA :0X820EF12ABE4
             </div>
             <p className="text-center text-white text-[32px] font-normal">
               discover the power of bitpepe in his very exciting journey
