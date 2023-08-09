@@ -6,10 +6,10 @@ const Footer = () => {
     <section className="w-full py-16 bgw" id="footer">
       <div className="container flex flex-col justify-center items-center gap-6">
         <div className="max-w-[784px] flex-col justify-start items-center gap-3.5 inline-flex">
-          <h1 className="text-center text-white text-5xl font-normal">
+          <h1 className="text-center animated text-white text-5xl font-normal">
             JOIN US !
           </h1>
-          <h2 className="flex-col justify-start items-center gap-[9px] flex">
+          <h2 className="flex-col animated justify-start items-center gap-[9px] flex">
             <div className="text-center text-white md:text-2xl font-normal">
               CA :0X8207443D734EF86ECC2635DB73F1578F5012ABE4
             </div>
