@@ -5,10 +5,10 @@ import Marquee from "react-fast-marquee";
 import x from "../assets/x.svg";
 import baby from "../assets/baby.svg";
 
-const TOKENOMICS = () => {
+const BabyX = () => {
   const copy = useRef(null);
   return (
-    <section className="w-full pt-16 bgw" id="TOKENOMICS">
+    <section className="w-full pt-16 bgw" id="BabyX">
       <div
         id="about-wrapper"
         className="container grid gap-16 grid-cols-1 lg:grid-cols-2 justify-between items-center"
@@ -51,105 +51,105 @@ const TOKENOMICS = () => {
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden font-Header">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
-          </div>
-        </div>
-        <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
-          </div>
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
-          </div>
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
-          </div>{" "}
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
-          </div>{" "}
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
-          </div>{" "}
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
         </div>
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
         </div>
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">BabyX</div>
+          </div>
+        </div>
+        <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">BabyX</div>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">BabyX</div>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">BabyX</div>
+          </div>{" "}
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">BabyX</div>
+          </div>{" "}
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">BabyX</div>
+          </div>{" "}
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">BabyX</div>
           </div>
         </div>
       </Marquee>
@@ -157,4 +157,4 @@ const TOKENOMICS = () => {
   );
 };
 
-export default TOKENOMICS;
+export default BabyX;
