@@ -8,10 +8,9 @@ const Hero = () => {
         <h1 className="text-white flex items-center gap-4 text-6xl font-normal leading-[90px]">
           MEET <img src={baby} alt="" className="w-[12rem]" />
         </h1>
-        {/* <p className="max-w-[493px] text-center text-white text-xl font-normal leading-loose">
-          Feel the combined power of the Hilarious pepe token and the Origin of
-          Crypto, BITCOIN !
-        </p> */}
+        <p className="max-w-[493px] text-center text-white text-xl font-normal leading-loose">
+          The BabyX token was made to make the community have more fun together.
+        </p>
         <a
           href=""
           className="w-[199px] h-[57px] pb-[3px] bg-white rounded-full justify-center items-center inline-flex"

@@ -15,11 +15,12 @@ const About = () => {
           </h1>
 
           <p className=" text-white text-2xl font-normal leading-10">
-            BABYX token was developed with the aim of enhancing the overall
-            enjoyment of the community. BABYX is dedicated to fostering
-            connections and creating a vibrant social environment where people
-            can come together, have a great time, and engage in entertaining
-            activities and social events.
+            The BabyX token was made to make the community have more fun
+            together. This idea came after people got excited about Elon Musk
+            changing Twitter to X. Since the X token did well, now it's BabyX’s
+            turn. BabyX wants to help people connect and create a lively social
+            place where they can meet, enjoy themselves, and talk to each other
+            in a good way.
           </p>
           <div
             onClick={async () => {
