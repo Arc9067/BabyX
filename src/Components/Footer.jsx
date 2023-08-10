@@ -4,16 +4,16 @@ import footerIcon from "../assets/footerIcon.svg";
 const Footer = () => {
   return (
     <section className="w-full py-16 bgw" id="footer">
-      <div className="container flex flex-col justify-center items-center gap-6">
+      <div id="footer-wrapper" className="container flex flex-col justify-center items-center gap-6">
         <div className="max-w-[784px] flex-col justify-start items-center gap-3.5 inline-flex">
-          <h1 className="text-center animated text-white text-5xl font-normal">
+          <h1 className="text-center footer-text animated text-white text-5xl font-normal">
             JOIN US !
           </h1>
           <h2 className="flex-col animated justify-start items-center gap-[9px] flex">
-            <div className="text-center text-white md:text-2xl font-normal">
+            <div className="text-center footer-text text-white md:text-2xl font-normal">
               CA :0X8207443D734EF86ECC2635DB73F1578F5012ABE4
             </div>
-            <p className="text-center text-white text-[32px] font-normal">
+            <p className="text-center footer-text text-white text-[32px] font-normal">
               discover the power of bitpepe in his very exciting journey
             </p>
           </h2>
@@ -21,15 +21,15 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-5">
           <a
             href=""
-            className="w-[215px] h-[54px] px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
+            className="w-[215px] h-[54px] footer-text px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
           >
-            <div className="text-black text-base font-bold leading-snug tracking-tight">
+            <div className="text-black  text-base font-bold leading-snug tracking-tight">
               TELEGRAM
             </div>
           </a>
           <a
             href=""
-            className="w-[215px] h-[54px] px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
+            className="w-[215px] h-[54px] footer-text px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-black text-base font-bold leading-snug tracking-tight">
               TWITTER
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>{" "}
           <a
             href=""
-            className="w-[215px] h-[54px] px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
+            className="w-[215px] h-[54px] footer-text px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-black text-base font-bold leading-snug tracking-tight">
               DEXTOOL
@@ -45,7 +45,7 @@ const Footer = () => {
           </a>
         </div>
         <a href="">
-          <img src={footerLogo} alt="" />
+          <img src={footerLogo} className="footer-text" alt="" />
         </a>
 
         <div className="w-full gap-10 mt-8 flex flex-col justify-center md:flex-row  md:justify-between items-center">
