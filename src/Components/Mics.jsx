@@ -9,7 +9,7 @@ const Mics = () => {
         <img src={mics} alt="" className="pointer-events-none" />
       </div>
 
-      <Marquee className="w-full mt-10 bg-rose-500 flex">
+      {/* <Marquee className="w-full mt-10 bg-rose-500 flex">
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
@@ -114,7 +114,7 @@ const Mics = () => {
             <div className="text-white text-3xl font-normal">ROADMAP</div>
           </div>
         </div>
-      </Marquee>
+      </Marquee> */}
     </section>
   );
 };
