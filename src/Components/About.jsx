@@ -8,10 +8,13 @@ import baby from "../assets/baby.svg";
 const TOKENOMICS = () => {
   const copy = useRef(null);
   return (
-    <section  className="w-full pt-16 bgw" id="TOKENOMICS">
-      <div id="about-wrapper" className="container grid gap-16 grid-cols-1 lg:grid-cols-2 justify-between items-center">
+    <section className="w-full pt-16 bgw" id="TOKENOMICS">
+      <div
+        id="about-wrapper"
+        className="container grid gap-16 grid-cols-1 lg:grid-cols-2 justify-between items-center"
+      >
         <article className="flex flex-col gap-5">
-          <h1 className="text-white about-text flex items-center gap-6 text-5xl font-normal">
+          <h1 className="text-white about-text flex items-center gap-6 text-5xl font-Header">
             MEET <img src={baby} alt="" className="w-[12rem]" />
           </h1>
 
@@ -42,10 +45,10 @@ const TOKENOMICS = () => {
             </div>
           </div>
         </article>
-        <img src={x} alt="" className="mx-auto animate-spin about-image" />
+        <img src={x} alt="" className="mx-auto about-image animate-spin" />
       </div>
       <Marquee className="w-full mt-10 bg-rose-500 flex">
-        <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
+        <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden font-Header">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
             <div className="text-white text-3xl font-normal">TOKENOMICS</div>

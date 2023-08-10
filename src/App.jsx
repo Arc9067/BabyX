@@ -5,16 +5,21 @@ import Mics from "./Components/Mics";
 import Footer from "./Components/Footer";
 import useSmoothScroll from "./utils/useSmoothScroll";
 import { useAnimation } from "./utils/useAnimations";
+import Map from "./Components/Map";
 
 const App = () => {
   const containerRef = useRef();
   useSmoothScroll();
-  useAnimation(containerRef)
+  useAnimation(containerRef);
   return (
-    <div ref={containerRef} className="min-h-screen w-full relative bg-black text-white">
+    <div
+      ref={containerRef}
+      className="min-h-screen w-full relative bg-black text-white"
+    >
       <Hero />
       <About />
       <Mics />
+      <Map />
       <Footer />
     </div>
   );
