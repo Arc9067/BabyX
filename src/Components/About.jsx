@@ -18,7 +18,7 @@ const TOKENOMICS = () => {
             MEET <img src={baby} alt="" className="w-[12rem]" />
           </h1>
 
-          <p className=" text-white about-text text-2xl font-normal leading-10">
+          <p className=" text-white about-text text-2xl font-Header leading-10">
             The BabyX token was made to make the community have more fun
             together. This idea came after people got excited about Elon Musk
             changing Twitter to X. Since the X token did well, now it's BabyX’s
@@ -51,105 +51,105 @@ const TOKENOMICS = () => {
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden font-Header">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
-          </div>
-        </div>
-        <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
-          </div>
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
-          </div>
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
-          </div>{" "}
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
-          </div>{" "}
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
-          </div>{" "}
-          <div className="flex items-center gap-4">
-            <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
         </div>
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
         </div>
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>{" "}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 relative bg-white rounded-full" />
-            <div className="text-white text-3xl font-normal">TOKENOMICS</div>
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+          </div>
+        </div>
+        <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+          </div>
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+          </div>{" "}
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+          </div>{" "}
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
+          </div>{" "}
+          <div className="flex items-center gap-4">
+            <div className="w-6 h-6 relative bg-white rounded-full" />
+            <div className="text-white text-3xl font-Header">TOKENOMICS</div>
           </div>
         </div>
       </Marquee>
