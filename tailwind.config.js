@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Frozenflare", "sans-serif"],
+        sans: ["Bitsumishi", "sans-serif"],
         Header: ["Bitsumishi", "sans-serif"],
       },
       colors: {
