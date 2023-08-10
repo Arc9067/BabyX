@@ -13,7 +13,7 @@ const Hero = () => {
           The BabyX token was made to make the community have more fun together.
         </p>
         <a
-          href=""
+          href="https://t.me/Baby_Xerc"
           className="w-[199px] hero-text h-[57px] pb-[3px] bg-white rounded-full justify-center items-center inline-flex"
         >
           <div className="grow shrink basis-0 self-stretch px-8 py-4 bg-amber-500 rounded-full shadow justify-center items-center gap-2.5 inline-flex">

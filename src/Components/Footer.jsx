@@ -14,7 +14,7 @@ const Footer = () => {
           </h1>
           <h2 className="flex-col justify-start items-center gap-[9px] flex">
             <div className="text-center footer-text text-white md:text-2xl font-normal">
-              CA :0X820EF12ABE4
+              CA: 0X820EF12ABE4
             </div>
             {/* <p className="text-center footer-text text-white text-[32px] font-normal">
               discover the power of bitpepe in his very exciting journey
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-5">
           <a
-            href=""
+            href="https://t.me/Baby_Xerc"
             className="w-[215px] h-[54px] footer-text px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-black  text-base font-bold leading-snug tracking-tight">
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </a>
           <a
-            href=""
+            href="https://twitter.com/BABYX_ETH"
             className="w-[215px] h-[54px] footer-text px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-black text-base font-bold leading-snug tracking-tight">
@@ -56,7 +56,7 @@ const Footer = () => {
             <img src={footerIcon} alt="" />
           </a>
           <div className="flex items-center gap-3">
-            <a href="">
+            <a href="https://t.me/Baby_Xerc">
               <svg
                 width="58"
                 height="58"
@@ -77,7 +77,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://t.me/getrichquickschemeerc">
+            <a href="https://twitter.com/BABYX_ETH">
               <svg
                 width="58"
                 height="58"
