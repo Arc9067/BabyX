@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import { ImCopy } from "react-icons/im";
 import logo from "../assets/logo.svg";
 import Marquee from "react-fast-marquee";
+import x from "../assets/x.svg";
+import baby from "../assets/baby.svg";
 
 const TOKENOMICS = () => {
   const copy = useRef(null);
@@ -9,15 +11,17 @@ const TOKENOMICS = () => {
     <section  className="w-full pt-16 bgw" id="TOKENOMICS">
       <div id="about-wrapper" className="container grid gap-16 grid-cols-1 lg:grid-cols-2 justify-between items-center">
         <article className="flex flex-col gap-5">
-          <h1 className="text-white text-5xl font-normal about-text ">MEET BABYX</h1>
-          <h1 className="max-w-[575px]  about-text text-white text-5xl font-normal">
-            Comic with the CommunityAs The Core
+          <h1 className="text-white about-text flex items-center gap-6 text-5xl font-normal">
+            MEET <img src={baby} alt="" className="w-[12rem]" />
           </h1>
-          <p className="  about-text text-white text-2xl font-normal leading-10">
-            We will make a 5 story part for this comic book with the help of the
-            community in the form of Story Plot competition ! The detail will be
-            shared on the telegram group.And please read #Issue 1 : Prologue -
-            The Awakening
+
+          <p className=" text-white about-text text-2xl font-normal leading-10">
+            The BabyX token was made to make the community have more fun
+            together. This idea came after people got excited about Elon Musk
+            changing Twitter to X. Since the X token did well, now it's BabyX’s
+            turn. BabyX wants to help people connect and create a lively social
+            place where they can meet, enjoy themselves, and talk to each other
+            in a good way.
           </p>
           <div
             onClick={async () => {
@@ -38,7 +42,7 @@ const TOKENOMICS = () => {
             </div>
           </div>
         </article>
-        <img src={logo} alt="" className="mx-auto about-image" />
+        <img src={x} alt="" className="mx-auto animate-spin about-image" />
       </div>
       <Marquee className="w-full mt-10 bg-rose-500 flex">
         <div className="w-full  pt-8 pb-[30px] gap-8 justify-center items-center grid grid-cols-6 px-3 overflow-hidden">

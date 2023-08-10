@@ -1,16 +1,16 @@
 import React from "react";
 import logo from "../assets/logo.svg";
 import Marquee from "react-fast-marquee";
+import baby from "../assets/baby.svg";
 const Hero = () => {
   return (
     <section className="pt-20 w-full min-h-screen" id="hero">
       <div className="container flex flex-col justify-center items-center gap-6">
-        <h1 className="text-white hero-text text-6xl font-normal leading-[90px]">
-          MEET BABYX
+        <h1 className="text-white flex items-center gap-4 hero-text text-6xl font-normal leading-[90px]">
+          MEET <img src={baby} alt="" className="w-[12rem]" />
         </h1>
-        <p className="max-w-[493px] hero-text text-center text-white text-xl font-normal leading-loose">
-          Feel the combined power of the Hilarious pepe token and the Origin of
-          Crypto, BITCOIN !
+        <p className="max-w-[493px] text-center hero-text text-white text-xl font-normal leading-loose">
+          The BabyX token was made to make the community have more fun together.
         </p>
         <a
           href=""
