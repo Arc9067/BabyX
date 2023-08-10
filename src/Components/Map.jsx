@@ -6,9 +6,9 @@ const Map = () => {
   return (
     <section className="w-full pt-16 bgw" id="roadmap">
       <div className="container grid justify-center items-center grid-cols-1 lg:grid-cols-3 gap-16">
-        <img src={Phase1} alt="" className="pointer-events-none" />
-        <img src={Phase1} alt="" className="pointer-events-none" />
-        <img src={Phase1} alt="" className="pointer-events-none" />
+        <img src={Phase1} alt="" className="pointer-events-none mx-auto" />
+        <img src={Phase1} alt="" className="pointer-events-none mx-auto" />
+        <img src={Phase1} alt="" className="pointer-events-none mx-auto" />
       </div>
 
       <Marquee className="w-full mt-10 bg-white flex">
