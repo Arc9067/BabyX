@@ -19,12 +19,10 @@ const BabyX = () => {
           </h1>
 
           <p className=" text-white about-text text-2xl font-Header leading-10">
-            The BabyX token was made to make the community have more fun
-            together. This idea came after people got excited about Elon Musk
-            changing Twitter to X. Since the X token did well, now it's BabyX’s
-            turn. BabyX wants to help people connect and create a lively social
-            place where they can meet, enjoy themselves, and talk to each other
-            in a good way.
+            The BabyX token was made to help the community have more fun
+            together. This idea came about because people were excited when Elon
+            Musk revealed his third child with Grimes, named Techno Mechanicus
+            shortened to 'Tau'.
           </p>
           <div
             onClick={async () => {
