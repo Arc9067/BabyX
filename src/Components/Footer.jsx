@@ -1,6 +1,6 @@
 import React from "react";
-import footerLogo from "../assets/footerLogo.svg";
-import footerIcon from "../assets/footerIcon.svg";
+import footerLogo from "../assets/logo.png";
+import footerIcon from "../assets/logo.png";
 const Footer = () => {
   return (
     <section className="w-full py-16 bgw" id="footer">
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-5">
           <a
-            href="https://t.me/Baby_Xerc"
+            href="https://t.me/Baby_X_Tau"
             className="w-[215px] h-[54px] footer-text px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-black  text-base font-bold leading-snug tracking-tight">
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </a>
           <a
-            href="https://twitter.com/BABYX_ETH"
+            href="https://x.com/BABYXTau_ETH"
             className="w-[215px] h-[54px] footer-text px-8 py-4 bg-white shadow border border-amber-300 justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-black text-base font-bold leading-snug tracking-tight">
@@ -48,15 +48,19 @@ const Footer = () => {
           </a>
         </div>
         <a href="">
-          <img src={footerLogo} className="footer-text" alt="" />
+          <img
+            src={footerLogo}
+            className="footer-text md:w-8/12 mx-auto"
+            alt=""
+          />
         </a>
 
-        <div className="w-full gap-10 mt-8 flex flex-col justify-center md:flex-row  md:justify-between items-center">
+        <div className="w-full gap-10 mt-8xw container flex flex-col justify-center md:flex-row  md:justify-between items-center">
           <a href="">
-            <img src={footerIcon} alt="" />
+            <img src={footerIcon} alt="" className="w-[15rem]" />
           </a>
           <div className="flex items-center gap-3">
-            <a href="https://t.me/Baby_Xerc">
+            <a href="https://t.me/Baby_X_Tau">
               <svg
                 width="58"
                 height="58"
@@ -77,7 +81,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-            <a href="https://twitter.com/BABYX_ETH">
+            <a href="https://x.com/BABYXTau_ETH">
               <svg
                 width="58"
                 height="58"

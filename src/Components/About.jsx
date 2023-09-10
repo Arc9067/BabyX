@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import { ImCopy } from "react-icons/im";
 import logo from "../assets/logo.svg";
 import Marquee from "react-fast-marquee";
-import x from "../assets/x.svg";
-import baby from "../assets/baby.svg";
+import x from "../assets/logo.png";
+import baby from "../assets/logo.svg";
 
 const BabyX = () => {
   const copy = useRef(null);
